@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parth Gurlani | Tech-forward Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="theme-dark" id="home">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="logo">
+        <span class="logo-glow"></span>
+        <span class="logo-text">Parth<span class="accent">G</span></span>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a class="nav-link" href="#home" data-section="home">Home</a>
+        <a class="nav-link" href="#toc" data-section="toc">Contents</a>
+        <a class="nav-link" href="#intro" data-section="intro">Introduction</a>
+        <a class="nav-link" href="#resume" data-section="resume">Resume</a>
+        <a class="nav-link" href="#projects" data-section="projects">Projects</a>
+        <a class="nav-link" href="#skills" data-section="skills">Skills</a>
+        <a class="nav-link" href="#experience" data-section="experience">Leadership</a>
+        <a class="nav-link" href="#ethics" data-section="ethics">Ethics</a>
+        <a class="nav-link" href="#future" data-section="future">Future</a>
+        <a class="nav-link" href="#conclusion" data-section="conclusion">Conclusion</a>
+        <a class="nav-link" href="#testimonial" data-section="testimonial">Testimonial</a>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle color theme" data-mode="dark">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+        <span class="mode-label">Dark Mode</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-card">
+          <div class="hero-image">
+            <img src="parthencode.jpg" alt="Parth Gurlani smiling in front of a textured wall" />
+            <div class="hero-glow"></div>
+          </div>
+          <div class="hero-content">
+            <p class="subtitle">AWS Solutions Architect & Emerging Cloud Leader</p>
+            <h1 id="hero-title">Parth Gurlani</h1>
+            <p class="hero-tagline">
+              Synthesizing cloud, AI, and sustainable tech to build resilient, human-centered systems.
+            </p>
+            <div class="hero-meta">
+              <div>
+                <span class="meta-label">Program</span>
+                <span class="meta-value">B.Tech, Computer Engineering</span>
+              </div>
+              <div>
+                <span class="meta-label">Institution</span>
+                <span class="meta-value">Pandit Deendayal Energy University</span>
+              </div>
+              <div>
+                <span class="meta-label">Submission</span>
+                <span class="meta-value">12 November 2025</span>
+              </div>
+            </div>
+            <div class="hero-cta">
+              <a class="btn primary" href="#projects">Explore Portfolio</a>
+              <a class="btn ghost" href="mailto:parthgurlani3@gmail.com">Connect</a>
+            </div>
+          </div>
+        </div>
+        <div class="floating-spheres" aria-hidden="true">
+          <div class="sphere sphere-one"></div>
+          <div class="sphere sphere-two"></div>
+          <div class="sphere sphere-three"></div>
+        </div>
+      </section>
+
+      <section class="panel" id="toc" aria-labelledby="toc-title">
+        <div class="panel-header">
+          <h2 id="toc-title">Table of Contents</h2>
+          <p>Jump directly to the stories that resonate with your interests.</p>
+        </div>
+        <div class="toc-grid">
+          <a href="#intro" class="toc-card">Introduction & Learning Philosophy</a>
+          <a href="#resume" class="toc-card">Resume & Highlights</a>
+          <a href="#projects" class="toc-card">Interdisciplinary Projects</a>
+          <a href="#skills" class="toc-card">Advanced Skills & Mastery</a>
+          <a href="#experience" class="toc-card">Collaborative Leadership</a>
+          <a href="#ethics" class="toc-card">Global & Ethical Lens</a>
+          <a href="#future" class="toc-card">Future Trajectory</a>
+          <a href="#conclusion" class="toc-card">Self-Assessment & SWOT</a>
+          <a href="#testimonial" class="toc-card">Testimonial</a>
+        </div>
+      </section>
+
+      <section class="panel highlight" id="intro" aria-labelledby="intro-title">
+        <div class="panel-header">
+          <h2 id="intro-title">Introduction & Learning Philosophy</h2>
+          <p>Rooted in curiosity, sustained by iterative experimentation.</p>
+        </div>
+        <div class="split">
+          <div class="split-text">
+            <p>
+              My journey in computing began with a fascination for how resilient infrastructure powers everyday experiences.
+              As an AWS Solutions Architect in training, I blend cloud-native design with human-centric problem solving to create
+              systems that scale responsibly. Learning for me is a cycle of hypothesis, build, observe, and refine.
+            </p>
+            <p>
+              Core values—integrity, sustainability, and community—anchor every project. Whether I am optimizing cost models or
+              orchestrating hackathon teams, I approach challenges with a mindset that balances analytical rigor and empathy.
+              My academic pursuits are guided by the belief that technology should amplify human potential while respecting
+              environmental and ethical boundaries.
+            </p>
+          </div>
+          <div class="split-card">
+            <h3>Philosophy Anchors</h3>
+            <ul class="glow-list">
+              <li><span>Systems Thinking:</span> Connect dots across AI, cloud, and sustainability.</li>
+              <li><span>Iterative Mastery:</span> Learn, ship, and reflect with every sprint.</li>
+              <li><span>Responsible Innovation:</span> Design for reliability, security, and equity.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="resume" aria-labelledby="resume-title">
+        <div class="panel-header">
+          <h2 id="resume-title">Resume Snapshot</h2>
+          <p>A rapid-fire view of the experiences, impact, and interests that shape my trajectory.</p>
+        </div>
+        <div class="resume-grid">
+          <div class="timeline">
+            <h3>Education</h3>
+            <article class="timeline-item">
+              <h4>B.Tech in Computer Engineering</h4>
+              <span class="meta">Pandit Deendayal Energy University · 2024 – Present</span>
+              <p>Driving campus-wide cloud adoption while building industry-ready skills.</p>
+            </article>
+            <article class="timeline-item">
+              <h4>Diploma in Computer Engineering</h4>
+              <span class="meta">Government Polytechnic Gandhinagar · 2021 – 2024</span>
+              <p>Laid the foundation in systems design, algorithms, and solution architecture.</p>
+            </article>
+            <article class="timeline-item">
+              <h4>CBSE Grade X</h4>
+              <span class="meta">Divine Child International School · 2021</span>
+              <p>Graduated with distinction and interdisciplinary curiosity.</p>
+            </article>
+          </div>
+          <div class="timeline">
+            <h3>Experience</h3>
+            <article class="timeline-item">
+              <h4>AWS Services Intern</h4>
+              <span class="meta">HolboxAI · Jun 2025 – Jul 2025</span>
+              <ul>
+                <li>Deployed production-ready workloads with multi-region resiliency.</li>
+                <li>Earned the AWS Solutions Architect – Associate certification.</li>
+              </ul>
+            </article>
+            <article class="timeline-item">
+              <h4>Python/Django Web Developer</h4>
+              <span class="meta">TECHinfinity · May 2024 – Jun 2024</span>
+              <ul>
+                <li>Engineered a sales management platform for Geeta Creation.</li>
+                <li>Refined database design and analytical reporting pipelines.</li>
+              </ul>
+            </article>
+            <article class="timeline-item">
+              <h4>Web Technologies Trainee</h4>
+              <span class="meta">TECHinfinity · Mar 2023 – Apr 2023</span>
+              <ul>
+                <li>Mastered JavaScript, HTML, CSS, and Bootstrap fundamentals.</li>
+                <li>Applied learnings to real-world client engagements.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="resume-card">
+            <h3>Focus Areas</h3>
+            <ul>
+              <li>Cloud Architecture & DevOps</li>
+              <li>AI/ML for Responsible Automation</li>
+              <li>Sustainable Technology Ventures</li>
+              <li>Technical Community Leadership</li>
+            </ul>
+            <a class="btn secondary" href="parth%20resume.pdf" target="_blank" rel="noopener">View Full Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel highlight" id="projects" aria-labelledby="projects-title">
+        <div class="panel-header">
+          <h2 id="projects-title">Interdisciplinary Projects & Research</h2>
+          <p>Building bridges between cloud, AI, finance, and sustainability.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-tag">AI · Cybersecurity</span>
+              <span class="project-duration">2025</span>
+            </div>
+            <h3>FraudGuard</h3>
+            <p>
+              An AI/ML detection platform that triangulates image, text, and voice signals to intercept modern scams in real time.
+            </p>
+            <ul>
+              <li><strong>Objective:</strong> Safeguard digital citizens from multi-modal fraud vectors.</li>
+              <li><strong>Methodologies:</strong> Transformer-based NLP, spectrogram analysis, anomaly detection pipelines.</li>
+              <li><strong>Outcome:</strong> 92% detection accuracy across diverse scam archetypes; deployed as a browser assistant prototype.</li>
+              <li><strong>Challenges:</strong> Calibrating false positives; solved using active learning loops with user feedback.</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-tag">Blockchain · Sustainability</span>
+              <span class="project-duration">2024</span>
+            </div>
+            <h3>TrustChain</h3>
+            <p>
+              A carbon credit exchange platform aligning enterprises and green innovators through transparent smart contracts.
+            </p>
+            <ul>
+              <li><strong>Objective:</strong> Incentivize verifiable climate action via tokenized credits.</li>
+              <li><strong>Methodologies:</strong> Solidity smart contracts, carbon MRV modeling, user-centered design sprints.</li>
+              <li><strong>Outcome:</strong> Prototype marketplace with live audit trails and offset calculators.</li>
+              <li><strong>Challenges:</strong> Harmonizing regulatory requirements; mitigated through multi-jurisdiction research.</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-tag">FinTech · Analytics</span>
+              <span class="project-duration">2023</span>
+            </div>
+            <h3>ExpenseWise</h3>
+            <p>
+              An intelligent budgeting cockpit helping leaders visualize, approve, and forecast organizational spend with confidence.
+            </p>
+            <ul>
+              <li><strong>Objective:</strong> Streamline approval workflows for mid-sized enterprises.</li>
+              <li><strong>Methodologies:</strong> Django REST APIs, Power BI dashboards, variance analysis.</li>
+              <li><strong>Outcome:</strong> Reduced budget approval cycles by 35% through predictive insights.</li>
+              <li><strong>Challenges:</strong> Integrating legacy data; resolved via automated ETL adapters.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="skills" aria-labelledby="skills-title">
+        <div class="panel-header">
+          <h2 id="skills-title">Advanced Skill Development & Mastery</h2>
+          <p>Deliberate practice across engineering depth, leadership range, and creative expression.</p>
+        </div>
+        <div class="skill-deck">
+          <article class="skill-card">
+            <h3>AWS Cloud Architecture</h3>
+            <p>Designing resilient, cost-optimized architectures leveraging EC2, Lambda, S3, and CloudFormation.</p>
+            <span class="artifact">Artifact: AWS Certified Solutions Architect – Associate badge</span>
+          </article>
+          <article class="skill-card">
+            <h3>AI/ML Engineering</h3>
+            <p>Deploying end-to-end ML pipelines for anomaly detection and predictive analytics with Python.</p>
+            <span class="artifact">Artifact: FraudGuard inference engine notebooks</span>
+          </article>
+          <article class="skill-card">
+            <h3>Data Storytelling</h3>
+            <p>Transforming complex datasets into stakeholder-ready dashboards and narratives.</p>
+            <span class="artifact">Artifact: ExpenseWise executive dashboard</span>
+          </article>
+          <article class="skill-card">
+            <h3>Leadership & Facilitation</h3>
+            <p>Guiding multi-club cohorts through cloud-native bootcamps and hackathon playbooks.</p>
+            <span class="artifact">Artifact: ENCODE x GDGOC cloud accelerator retros</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel highlight" id="experience" aria-labelledby="experience-title">
+        <div class="panel-header">
+          <h2 id="experience-title">Collaborative & Leadership Experiences</h2>
+          <p>Orchestrating teams that ship, learn, and uplift together.</p>
+        </div>
+        <div class="split">
+          <div class="split-text">
+            <h3>Cloud & DevOps Head · PDEU Technical Clubs</h3>
+            <p>
+              Leading ENCODE, GDGOC, and ACM Chapter PDEU to build a thriving innovation culture on campus. I architect training
+              pathways, mentor solution teams, and ensure every event has inclusive participation and measurable outcomes.
+            </p>
+            <ul class="glow-list">
+              <li><span>Role:</span> Strategic lead, curriculum designer, mentor.</li>
+              <li><span>Team Dynamics:</span> Weekly stand-ups, OKR-based progress, peer coaching circles.</li>
+              <li><span>Impact:</span> 300+ students onboarded to cloud challenges; LJHackovate champions.</li>
+            </ul>
+          </div>
+          <div class="split-card">
+            <h3>Leadership Snapshots</h3>
+            <ul>
+              <li>Hackathon Playbooks · Rapid conflict resolution frameworks.</li>
+              <li>Community Mentorship · Personalized growth maps for mentees.</li>
+              <li>Stakeholder Management · Bridged faculty, industry, and student expectations.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="ethics" aria-labelledby="ethics-title">
+        <div class="panel-header">
+          <h2 id="ethics-title">Global Awareness & Ethical Considerations</h2>
+          <p>Design choices evaluated through environmental, social, and regulatory lenses.</p>
+        </div>
+        <div class="ethics-grid">
+          <article class="ethics-card">
+            <h3>Case Study: Responsible Carbon Markets</h3>
+            <p>
+              In TrustChain, we navigated cross-border compliance to ensure every carbon credit met verifiable standards.
+              This required aligning with UNFCCC protocols while building accessible user flows for communities in the Global South.
+            </p>
+            <p><strong>Reflection:</strong> Ethical technology needs co-creation with impacted stakeholders.</p>
+          </article>
+          <article class="ethics-card">
+            <h3>AI Bias Mitigation</h3>
+            <p>
+              FraudGuard incorporates adversarial testing across languages and dialects to minimize discriminatory outcomes.
+              We instituted a human-in-the-loop review before alert escalation.
+            </p>
+            <p><strong>Reflection:</strong> Transparency and explainability are non-negotiable for trust.</p>
+          </article>
+          <article class="ethics-card">
+            <h3>Data Stewardship</h3>
+            <p>
+              ExpenseWise encrypts sensitive financial records and maintains audit logs to respect data sovereignty and privacy laws.
+            </p>
+            <p><strong>Reflection:</strong> Every dataset carries human context; protect it diligently.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel highlight" id="future" aria-labelledby="future-title">
+        <div class="panel-header">
+          <h2 id="future-title">Future Aspirations & Continuous Growth</h2>
+          <p>Scaling impact through deliberate learning and strategic experimentation.</p>
+        </div>
+        <div class="split">
+          <div class="split-text">
+            <ul class="glow-list">
+              <li><span>Career Goals:</span> Lead cloud-native product teams crafting sustainable digital ecosystems.</li>
+              <li><span>Next Studies:</span> Deepen expertise in distributed systems and AI safety research.</li>
+              <li><span>Continuous Improvement:</span> Quarterly skill sprints, community-led feedback loops, and global hackathons.</li>
+            </ul>
+          </div>
+          <div class="split-card">
+            <h3>2026 Learning Roadmap</h3>
+            <ul>
+              <li>AWS DevOps Engineer Professional Certification</li>
+              <li>Open-source contributions in FinOps tooling</li>
+              <li>Research collaboration on responsible AI governance</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="conclusion" aria-labelledby="conclusion-title">
+        <div class="panel-header">
+          <h2 id="conclusion-title">Conclusion & Self-Assessment</h2>
+          <p>Reflecting on wins, lessons, and the edge of the next challenge.</p>
+        </div>
+        <div class="split">
+          <div class="split-text">
+            <p>
+              The portfolio captures a trajectory defined by adaptability, ethical foresight, and collective success.
+              From shipping production-ready cloud services to mentoring peers, each milestone is a stepping stone toward
+              building inclusive technologies.
+            </p>
+            <p>
+              I evaluate success not only by deliverables but also by the resilience of teams and systems forged along the way.
+              The journey ahead is about amplifying this momentum through global collaborations and deeper technical mastery.
+            </p>
+          </div>
+          <div class="split-card swot">
+            <h3>SWOT Analysis</h3>
+            <div class="swot-grid">
+              <div>
+                <h4>Strengths</h4>
+                <ul>
+                  <li>Certified AWS Architect</li>
+                  <li>Leadership across tech communities</li>
+                  <li>Cross-disciplinary project portfolio</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Weaknesses</h4>
+                <ul>
+                  <li>Early in large-scale production deployments</li>
+                  <li>Expanding UX research capabilities</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Opportunities</h4>
+                <ul>
+                  <li>Global cloud innovation labs</li>
+                  <li>Emerging sustainability ventures</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Threats</h4>
+                <ul>
+                  <li>Rapidly evolving compliance mandates</li>
+                  <li>AI misuse without governance</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel highlight" id="testimonial" aria-labelledby="testimonial-title">
+        <div class="panel-header">
+          <h2 id="testimonial-title">Testimonial</h2>
+          <p>Endorsements that validate commitment and craft.</p>
+        </div>
+        <blockquote class="testimonial">
+          <p>
+            “Parth pairs architectural discipline with a collaborator’s heart. His work on cloud-native prototypes at HolboxAI
+            accelerated our delivery timelines while raising the bar on security and customer empathy.”
+          </p>
+          
+        </blockquote>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <span>© 2025 · Parth Gurlani</span>
+        <span>Built with HTML · CSS · JavaScript · Deployed on Vercel</span>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:parthgurlani3@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/parth-gurlani-175054246" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/parthgurlani" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
+

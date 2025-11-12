@@ -1,0 +1,104 @@
+PARTH GURLANI
+AWS Solutions Architect
+@parthgurlani3@gmail.com ♂phone+91 9979222766 ♂¶ap-¶arkerIndia /xicon@x-handle
+/linkedinparth-gurlani-175054246 /githubparthgurlani /gitlabyour_id /mastodon@username@instance
+EXPERIENCE
+AWS Services Internship
+Holboxai
+Ὄ5June 2025 – July 2025 (2 months) ♂¶ap-¶arkerIIM, Ahmedabad
+•Applied and utilized various *AWS services* in a real-world
+setting.
+•Successfully *cleared the AWS Solutions Architect - Associate*
+exam, earning the certiﬁcation badge.
+Web Developer (Python/Django)
+TECHinﬁnity
+Ὄ5May 2024 – June 2024 (2 months) ♂¶ap-¶arkerGandhinagar
+•Developed a *Sales Management System* (Geeta Creation) using
+the *Django framework* to manage clothing shop sales and
+purchasing operations.
+•Gained practical experience in backend development and
+database interaction within a commercial project environment.
+Web Developer (Technologies Training)
+TECHinﬁnity
+Ὄ5March 2023 – April 2023 (1 month) ♂¶ap-¶arkerGandhinagar
+•Mastered core web technologies including *JavaScript, HTML,
+CSS, and Bootstrap*.
+•Applied learned technologies to a *real-life project* to solidify
+foundational web development skills.
+PROJECTS
+FraudGuard (AI/ML Detection System)
+Personal Project
+•Developed an AI/ML detection system to combat modern scams,
+integrating *image, text, and voice detection* capabilities to
+protect users from fraudulent activities.
+Trustchain (Carbon Credits Exchange)
+Personal Project
+•Designed and built a website focused on the *exchange of carbon
+credits*, showcasing blockchain or sustainable technology
+concepts.
+ExpenseWise
+Personal ProjectMOST PROUD OF
+/cer◎ifica◎e*AWS Certiﬁed Solutions Architect -
+Associate*
+Demonstrated proﬁciency in designing
+scalable, highly available, and
+fault-tolerant systems on AWS.
+Ἴ6*1x Hackathon Winner*
+Secured ﬁrst place at *LJHackovate*
+(Hackathon name).
+/usersCloud & DevOps Leadership
+Lead three major university technical
+clubs (ENCODE, GDGOC, ACM
+Chapter PDEU).
+TECHNICAL SKILLS
+AWS Cloud Computing ML/AI
+GCP
+Data Analytics C/C++ JavaScript
+Python Django
+STRENGTHS
+Leadership Motivator & Leader
+Hardworking Eye for Detail
+LANGUAGES
+Hindi ○ ○ ○ ○ ○
+English ○ ○ ○ ○ ○
+Gujarati ○ ○ ○ ○ ○○
+Sindhi ○ ○ ○ ○ ○
+EDUCATION
+B.Tech. in Computer Engineering
+Pandit Deendayal Energy University
+Ὄ52024 – Current ♂¶ap-¶arkerGandhinagar
+Diploma in Computer Engineering
+Government Polytechnic Gandhinagar
+•Created a system for *tracking company expenses* and providing
+data insights to facilitate approval decisions and budget planning.
+Sales Management System
+Geeta Creation (Django)
+•Built a comprehensive sales and purchasing management system
+using the *Django framework* for a cloth shop business.
+LEADERSHIP & VOLUNTEERING
+Cloud and DevOps Head
+Pandit Deendayal Energy University (PDEU)
+Ὄ52024 – Present
+•Lead the Cloud and DevOps initiatives for three prominent
+technical clubs:
+•*ENCODE*
+•*GDGOC (Google Developer Group On Campus)*
+•*ACM Chapter PDEU*Ὄ52021 – 2024 ♂¶ap-¶arkerGandhinagar
+Grade X (CBSE)
+Divine Child International School
+Ὄ52021
+REFEREES
+Prof. Alpha Beta
+@Institute
+/envel⌢pea.beta@university.edu
+Address Line 1
+Address Line 2
+Prof. Gamma Delta
+@Institute
+/envel⌢peg.delta@university.edu
+Address Line 1
+Address Line 2
+PUBLICATIONS
+Research Paper
+•*XGBoost-based Alzheimer’s Prediction* with Feature Selection
+and Randomized Tuning.
